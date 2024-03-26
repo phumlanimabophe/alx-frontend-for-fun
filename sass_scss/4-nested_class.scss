@@ -1,0 +1,18 @@
+/* 
+A Sass file that assigns colors using nested declarations 
+*/
+
+/* Set default text color for body */
+body {
+	color: #3D3D3D; /* Default text color for body */
+}
+
+/* 
+Nested declaration to apply red color to specific elements 
+This applies to elements with the class '.red' inside the 'body' tag.
+*/
+body {
+	.red {
+		color: #FF0000; /* Apply red color to elements with class 'red' */
+	}
+}

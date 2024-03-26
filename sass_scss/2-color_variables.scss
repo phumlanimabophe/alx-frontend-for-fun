@@ -1,0 +1,22 @@
+/* ====================================
+   Sass File: Color Assignment
+   Description: Assigns text and background colors to HTML elements
+   ==================================== */
+
+// Define Sass variables
+$text-color: #3D3D3D; // Text color variable
+$bg-color: #6D6D6D; // Background color variable
+
+// Apply styles to HTML elements
+body {
+  color: $text-color; // Text color for body
+  background-color: $bg-color; // Background color for body
+}
+
+p {
+  color: $text-color; // Text color for paragraphs
+}
+
+h2 {
+  background-color: $bg-color; // Background color for h2
+}

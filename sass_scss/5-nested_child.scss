@@ -1,0 +1,21 @@
+/* 
+A Sass file that assigns:
+- Text color #3D3D3D to elements inside body tags
+- Text color #FF0000 to any elements of class .red that are the first children of the body
+You must use nested declarations 
+*/
+
+/* Set default text color for elements inside body */
+body {
+	color: #3D3D3D; /* Default text color for elements inside body */
+}
+
+/* 
+Nested declaration to apply red color to elements with class '.red' that are direct children of body
+This targets .red elements that are the first children of the body tag.
+*/
+body {
+	> .red {
+		color: #FF0000; /* Apply red color to first children elements with class 'red' */
+	}
+}

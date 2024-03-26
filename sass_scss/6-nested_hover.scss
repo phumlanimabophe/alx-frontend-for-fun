@@ -1,0 +1,14 @@
+/* 
+Nested hover: 
+Change button color on hover 
+*/
+
+/* Set default button color */
+button {
+    color: #FF0000; /* Red color for button text */
+
+    /* Apply color change on hover */
+    &:hover {
+        color: #00FF00; /* Green color for button text on hover */
+    }
+}

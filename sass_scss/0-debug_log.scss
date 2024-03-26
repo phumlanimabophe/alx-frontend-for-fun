@@ -1,0 +1,8 @@
+/* 
+A Sass file that prints "Hello world" in the debug output.
+*/
+
+$debug-message: "Hello world"; /* Define debug message variable */
+
+/* Output "Hello world" to the debug console */
+@debug $debug-message; /* Debug message to show "Hello world" */
