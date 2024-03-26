@@ -1,20 +1,17 @@
-/* 
-A Sass file that assigns:
-- No margin or padding in body tags
-- Margin of 10px to all p tags inside body tags
-You must use nested declarations 
-*/
+/* A Sass file that assigns:
+No margin or padding in body tags
+Margin 10px to all of the p tags inside body tags
+You must use nested declarations */
 
-// Reset margin and padding for body
 body {
-	margin: 0; // Reset margin
-	padding: 0; // Reset padding
-  }
-  
-  // Apply margin of 10px to all paragraphs inside body
-  body {
-	p {
-	  margin: 10px; // Apply margin to paragraphs
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	p{
+		margin: 10px;
 	}
-  }
-  
+}
+
