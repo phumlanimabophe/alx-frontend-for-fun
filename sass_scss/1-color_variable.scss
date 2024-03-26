@@ -1,20 +1,15 @@
-// -----------------------------------------------------------------------------
-// Sass file: Text Color Assignment
-//
-// Description: This Sass file assigns the text color #3D3D3D to the HTML tags
-//              body and p.
-// -----------------------------------------------------------------------------
-// Define variables
-// -----------------------------------------------------------------------------
-$text-color: #3D3D3D; // Define text color variable
+/* 
+A Sass file that assigns the text color #3D3D3D to the HTML tags body and p 
+*/
 
-// -----------------------------------------------------------------------------
-// Apply styles
-// -----------------------------------------------------------------------------
+$text-color: #3D3D3D; /* Define text color variable */
+
+/* Apply text color to body */
 body {
-  color: $text-color; // Set text color for body
+  color: $text-color; /* Set text color for body */
 }
 
+/* Apply text color to paragraphs */
 p {
-  color: $text-color; // Set text color for paragraphs
+  color: $text-color; /* Set text color for paragraphs */
 }
